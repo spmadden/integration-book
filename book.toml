@@ -3,7 +3,21 @@ authors = ["Sean Madden"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Integration Guide"
+title = "The Big Book of Systems Integration"
 
 [build]
 create-missing = true
+
+[output.html]
+default-theme = "dark"
+preferred-dark-theme = "ayu"
+mathjax-support = true
+git-repository-url = "https://github.com/spmadden/integration-book"
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.fold]
+enable = true
+level = 2

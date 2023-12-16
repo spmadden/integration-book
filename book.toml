@@ -1,0 +1,9 @@
+[book]
+authors = ["Sean Madden"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Integration Guide"
+
+[build]
+create-missing = true
